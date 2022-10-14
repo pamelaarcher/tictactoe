@@ -21,11 +21,11 @@ This application is made up of 3 main files
 
 ### Running the Application
  (1) You can download these 3 files to a directory on your local drive.  
- (2) Once installed in a directory, run an http-server from the directory and identify the ip/port number used
+ (2) Once installed in a directory, run an http-server from the directory and identify the ip/port number used 
  (3) Open your browser and enter <ip>:<port>/index.html from input line
  
 ### Future Improvements
-•	 Include a button to play another game.
+•	 Include a button to play another game. 
 •	 Track the number of games the X and O players played and times each one.
 
 ## License
