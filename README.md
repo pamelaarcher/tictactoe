@@ -25,8 +25,8 @@ This application is made up of 3 main files
  3. Open your browser and enter *ip:port*/index.html from input line
  
 ### Future Improvements
-*	Include a button to play another game. 
-*	Track the number of games the X and O players played and times each one.
+*	Include a button to play another game - I would create a new const "Games" that includes a button that when clicked unmounts current game if one exists and renders "Game".   If no game exists it will render one.   This new component will also track additional information including how many times the game has been played as well as who won each game (X or O) or if no one won the game (e.g.   all squares filled but no X or Os in row/column/diag).  This would be tracked in an array within the Games component.   At the end of game, the Game component would return the winner (or none) to the parent component Games.
+*	Track Total Times Played and Total Times Won for each Player - Within the Games component,  would have a new info component that shows 4 new attributes,  total games,  total wins for X, for Y and for none.    These would be re-rendered at the end of each game (button is clicked to start a new game or when all squares are clicked within the game.
 
 ## License
 
